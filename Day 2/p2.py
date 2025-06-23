@@ -1,0 +1,21 @@
+s1 = input("Enter first string : ")
+s2 = input("Enter second string : ")
+
+s3 = s1 + s2
+print(f"Concatenated string: {s3}")
+
+print(f"1. Lowercase: {s3.lower()}")
+print(f"2. Uppercase: {s3.upper()}")
+print(f"3. Title Case: {s3.title()}")
+print(f"4. Swap Case: {s3.swapcase()}")
+print(f"5. Capitalize: {s3.capitalize()}")
+print(f"6. Casefold (for aggressive lowercase): {s3.casefold()}")
+print(f"7. Center : {s3.center(30, '*')}")
+print(f"8. Count of 'a': {s3.count('a')}")
+print(f"9. Ends with 'a': {s3.endswith('d')}")
+print(f"10. Find 'a': {s3.find('a')}")
+print(f"11. Is Alphanumeric: {s3.isalnum()}")
+print(f"12. Is Digit: {s3.isdigit()}")
+print(f"13. Is Numeric: {s3.isnumeric()}")
+print(f"14. Is Space: {s3.isspace()}")
+print(f"15. Replace 'a' with '@': {s3.replace('a', '@')}")
